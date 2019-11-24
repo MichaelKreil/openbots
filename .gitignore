@@ -1,0 +1,5 @@
+
+node_modules
+
+# ignore files, that are to big for GitHub
+data/comprop_oxford/verified_accounts.ndjson.xz

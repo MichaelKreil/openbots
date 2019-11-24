@@ -1,0 +1,19 @@
+{
+  "name": "openbots",
+  "version": "1.0.0",
+  "description": "tools for verifing social bot research",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelKreil/openbots.git"
+  },
+  "author": "Michael Kreil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelKreil/openbots/issues"
+  },
+  "homepage": "https://github.com/MichaelKreil/openbots#readme",
+  "private": true,
+  "dependencies": {
+    "mississippi2": "^1.0.5"
+  }
+}
