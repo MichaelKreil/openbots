@@ -1,4 +1,5 @@
 
+*.sh
 node_modules
 
 # ignore files, that are to big for GitHub
