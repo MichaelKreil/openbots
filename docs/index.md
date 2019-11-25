@@ -1,5 +1,5 @@
 ---
-title: "The Army that Never Existed:<br>The&nbsp;Failure&nbsp;of&nbsp;Social&nbsp;Bots&nbsp;Research-"
+title: "Lecture Notes"
 ---
 
 # The presentation
