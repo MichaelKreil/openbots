@@ -1,5 +1,5 @@
 ---
-title: "The Army that Never Existed:\nThe Failure of Social Bots Research"
+title: "The Army that Never Existed:<br>The Failure of Social Bots Research"
 ---
 
 # The presentation
