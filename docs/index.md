@@ -1,3 +1,7 @@
+---
+title: 'The Army that Never Existed: The Failure of Social Bots Research'
+---
+
 # Media Coverage
 
 Since the end of 2016, after the Brexit referendum and the election of Donald Trump, many media outlets have covered the theory that social bots have manipulated voters.
