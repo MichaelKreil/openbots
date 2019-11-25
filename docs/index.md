@@ -1,8 +1,10 @@
 ---
-title: 'The Army that Never Existed: The Failure of Social Bots Research'
+title: "The Army that Never Existed:\nThe Failure of Social Bots Research"
 ---
 
-# Media Coverage
+{{TOC}}
+
+# Media coverage of social bots
 
 Since the end of 2016, after the Brexit referendum and the election of Donald Trump, many media outlets have covered the theory that social bots have manipulated voters.
 
@@ -12,11 +14,11 @@ Almost all allegations are based on only three research groups:
 * Southern California/Indiana: Work of Emilio Ferrara (University of Southern California) and Alessandro Flammini (Indiana University)
 * Berkeley/Swansea: Work of Oleksandr Talavera and Tho Pham (Swansea University) and Yuriy Gorodnichenko (University of California at Berkeley).
 
-<img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/articles_mk-01.png" width="640"/>
+<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/articles_mk-01.png" width="60%"/></p>
 
-play with the [interactive version](https://data.info.graphics/blog/2018/12/21/social-bot-research-is-flawed/) and download the list of articles as [TSV](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.tsv) or [Excel](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.xlsx)
+download the list of articles as [TSV](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.tsv) or [Excel](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.xlsx)
 
-# Comprop/Oxford
+# Research team: Comprop/Oxford
 
 ["The Computational Propaganda Project"](https://comprop.oii.ox.ac.uk) of the Oxford Internet Institute is the most widely used source of the claim that social bots manipulate voter opinion.
 In particular, the work of Bence Kollanyi and Philip N. Howard focuses on the [Brexit referendum](https://comprop.oii.ox.ac.uk/research/working-papers/bots-strongerin-and-brexit-computational-propaganda-during-the-uk-eu-referendum/) ([PDF](http://blogs.oii.ox.ac.uk/politicalbots/wp-content/uploads/sites/89/2016/06/COMPROP-2016-1.pdf)), the [First](https://comprop.oii.ox.ac.uk/research/working-papers/bots-and-automation-over-twitter-during-the-first-u-s-presidential-debate/) ([PDF](http://blogs.oii.ox.ac.uk/politicalbots/wp-content/uploads/sites/89/2016/10/Data-Memo-First-Presidential-Debate.pdf)), [Second](https://comprop.oii.ox.ac.uk/research/working-papers/bots-and-automation-over-twitter-during-the-second-u-s-presidential-debate/) ([PDF](http://blogs.oii.ox.ac.uk/politicalbots/wp-content/uploads/sites/89/2016/10/Data-Memo-Second-Presidential-Debate.pdf)) and [Third](https://comprop.oii.ox.ac.uk/research/working-papers/bots-and-automation-over-twitter-during-the-third-u-s-presidential-debate/) ([PDF](https://comprop.oii.ox.ac.uk/research/working-papers/bots-and-automation-over-twitter-during-the-third-u-s-presidential-debate/)) U.S. Presidential Debate and the [U.S. Election](https://comprop.oii.ox.ac.uk/research/working-papers/bots-and-automation-over-twitter-during-the-u-s-election/) ([PDF](http://blogs.oii.ox.ac.uk/politicalbots/wp-content/uploads/sites/89/2016/11/Data-Memo-US-Election.pdf))
@@ -42,7 +44,7 @@ On [page 3](http://blogs.oii.ox.ac.uk/politicalbots/wp-content/uploads/sites/89/
 
 You can verify my results by using [code](https://github.com/MichaelKreil/openbots/tree/master/code/comprop_oxford) and [data](https://github.com/MichaelKreil/openbots/tree/master/code/comprop_oxford) in this [GitHub repository](https://github.com/MichaelKreil/openbots).
 
-# South California/Indiana
+# Research team: South California/Indiana
 
 This team got totally different results. While Comprop/Oxford claims that **0.1%** of Twitter accounts using US elections related hashtags are automated, [South California/Indiana claims](https://firstmonday.org/article/view/7090/5653) that they even found **14.4%** bots!
 
@@ -50,36 +52,67 @@ Their method uses machine learning (papers: [arXiv:1602.00975](https://arxiv.org
 
 > To train our system we initially used a publicly available dataset consisting of 15K manually verified Twitter bots identified via a honeypot approach (Lee, Eoff, and Caver- lee 2011) and 16K verified human accounts.
 
+## Trained with spam
+
 Interestingly, their training data set of "verified Twitter bots" comes from a research team that does not call them bots, but "[Content Polluters](https://pdfs.semanticscholar.org/b433/9952a73914dc7eacf3b8e4c78ce9a5aa9502.pdf)".
 
 So South California/Indiana may not have trained a system to detect social bots, but spam accounts. That is a distinction that is very important to be made!
 
-You can test the social bot detection yourself: [botometer.iuni.iu.edu](https://botometer.iuni.iu.edu)
+## Falsifying the method
 
+You can test the social bot detection tool yourself: [botometer.iuni.iu.edu](https://botometer.iuni.iu.edu)
+
+### US congress
 When I tested the system in April 2018, about half of US Congress members on Twitter were classified as bots:
 
-https://data.info.graphics/blog/2018/12/21/social-bot-research-is-flawed/
+<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/congress_mk-01.png" width="60%"/></p>
 
-raw data/excel
+*download the [raw data as JSON](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/botometer_congress.json)*
 
-Twitter thread: https://twitter.com/MichaelKreil/status/1125025823868760065
+### Other examples
 
-Add data sources
+I have collected some examples of the misclassification of groups of people in a [Twitter thread](https://twitter.com/MichaelKreil/status/1125025823868760065).
 
-Used by many other scientists
+- **10.5%** of NASA related accounts are **misclassified** as bots ([Twitter list](https://twitter.com/USAGov/lists/nasa/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/USAGov_list_nasa.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/USAGov_list_nasa.ndjson.gz))
+- **12%** of Nobel Prize Laureates are **misclassified** as bots ([Twitter list](https://twitter.com/nobelprize/lists/nobel-laureates/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/NobelPrize_list_nobel-laureates.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/NobelPrize_list_nobel-laureates.ndjson.gz))
+- **14%** of female directors are **misclassified** as bots ([Twitter list](https://twitter.com/TheDirectorList/lists/women-directors/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/TheDirectorList_list_women-directors.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/TheDirectorList_list_women-directors.ndjson.gz))
+- **17.7%** of Reuters journalists are **misclassified** as bots ([Twitter list](https://twitter.com/Reuters/lists/all-journos-list-1/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/Reuters_list_all-journos-list-1.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/Reuters_list_all-journos-list-1.ndjson.gz))
+- **21.9%** of UN women staff are **misclassified** as bots ([Twitter list](https://twitter.com/UN_Women/lists/un-women-staff-on-twitter/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/UN_Women_list_un-women-staff-on-twitter.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/UN_Women_list_un-women-staff-on-twitter.ndjson.gz))
+- **35.9%** of the staff of german news agency "dpa" are **misclassified** as bots ([Twitter list](https://twitter.com/dpa/lists/dpa-mitarbeiter/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/dpa_list_dpa-mitarbeiter.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/dpa_list_dpa-mitarbeiter.ndjson.gz))
+- **36%** of known bots by New Scientist are **misclassified** as humans ([Twitter list](https://twitter.com/newscientist/lists/twitterbots/members), [results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/newscientist_list_twitterbots.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/newscientist_list_twitterbots.ndjson.gz))
+- **60.7%** of the bots collected by [Botwiki](https://botwiki.org/bots/) are **misclassified** as humans ([results](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/file_bots.tsv), [raw data](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/file_bots.ndjson.gz))
 
-Tobias R. Keller, Ulrike Klinger
-https://doi.org/10.1080/10584609.2018.1526238
+### Reverse engineering
 
-Link to my reverse engineering tool
+The botometer is not a scientific instrument, yet many scientists have used it for their research. All their papers are based on a tool that achieves error rates of 50% and more. So all these papers are basically invalid.
 
-# Berkeley/Swansea
+One of these papers is:  
+Tobias R. Keller & Ulrike Klinger (2019) Social Bots in Election Campaigns: Theoretical, Empirical, and Methodological Implications, Political Communication, 36:1, 171-189, DOI: [10.1080/10584609.2018.1526238](https://doi.org/10.1080/10584609.2018.1526238)
+
+They scraped 600'000/800'000 Twitter accounts following the seven major parties in Germany. Then they checked every account with Botometer and of course came to the conclusion, that 7.1/9.9% are bots.
+
+I completely reproduced their work to get the list of accounts they claim to be social bots (which of course are not social bots). But these many data points allow us to reverse engineer the botometer algorithm using Dimension Reduction ([UMAP](https://github.com/lmcinnes/umap)):
+
+<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/reverse_engineering_botometer.png" width="60%"/></p>
+
+You can find [this tool](https://michaelkreil.github.io/reverse_engineering_botometer/) and the [code](https://github.com/MichaelKreil/reverse_engineering_botometer) online.
+
+Results: Typically, accounts were misclassified as social bots if they:
+- send just one tweet, e.g. people have tried Twitter once, but never used it again,
+- are inactive for a longer time, e.g. people have left Twitter,
+- were not mentioned by other accounts, e.g. because people twittered boring stuff.
+
+Accounts with one of these properties are the vast majority in the group of misclassified accounts. However, none of these properties prove that they are social bots.
+
+Interestingly, this shows a reproducible problem of botometer: If you create a new Twitter account and send only one tweet, you will immediately be classified as a social bot.
+
+# Research team: Berkeley/Swansea
 
 See [blog post of Mike Hearn](https://blog.plan99.net/did-russian-bots-impact-brexit-ad66f08c014a):
 
 > It is the most irresponsible abuse of maths I’ve seen for a long time.
 
-# Other groups
+# Other research teams
 
 https://twitter.com/SashaTalavera/status/1193963253438844928
 https://twitter.com/amelia_rh/status/1184257476348260352?
