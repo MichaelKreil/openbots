@@ -108,6 +108,7 @@ Interestingly, this shows a reproducible problem of botometer: If you create a n
 
 # Research team: Berkeley/Swansea
 
+
 See [blog post of Mike Hearn](https://blog.plan99.net/did-russian-bots-impact-brexit-ad66f08c014a):
 
 > It is the most irresponsible abuse of maths I’ve seen for a long time.
@@ -115,6 +116,7 @@ See [blog post of Mike Hearn](https://blog.plan99.net/did-russian-bots-impact-br
 # Other research teams
 
 https://twitter.com/SashaTalavera/status/1193963253438844928
+
 https://twitter.com/amelia_rh/status/1184257476348260352?
 
 # Counter-Research
@@ -125,7 +127,6 @@ https://twitter.com/amelia_rh/status/1184257476348260352?
 
 You can [**download the slides**](https://github.com/MichaelKreil/openbots/tree/master/slides) in multiple formats: [Apple Keynote](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.key.zip), [PowerPoint](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pptx), [PDF](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pdf) and [PNGs](https://github.com/MichaelKreil/openbots/tree/master/slides/slides_png)
 * twitter scraper
-* account layouting
 
 # Results
 
@@ -135,3 +136,4 @@ The whole theory of "Social Bots influenced elections" can be fully explained by
 
 All their papers have to be reviewed again and have to be revoked if necessary.
 This includes all other research from all other groups, using their methods.
+
