@@ -2,7 +2,11 @@
 title: "The Army that Never Existed:\nThe Failure of Social Bots Research"
 ---
 
-{{TOC}}
+# The presentation
+
+… was held at the great [OpenFest Conference](https://www.openfest.org/2019/en/full-schedule/#lecture-515) in Bulgaria on 2 November 2019.
+
+*The recording will probably appear on YouTube at the end of November, and then added here.*
 
 # Media coverage of social bots
 
