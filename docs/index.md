@@ -18,7 +18,7 @@ Almost all allegations are based on only three research groups:
 * Southern California/Indiana: Work of Emilio Ferrara (University of Southern California) and Alessandro Flammini (Indiana University)
 * Berkeley/Swansea: Work of Oleksandr Talavera and Tho Pham (Swansea University) and Yuriy Gorodnichenko (University of California at Berkeley).
 
-<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/articles_mk-01.png" width="60%"/></p>
+<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/articles_mk-01.png" width="80%"/></p>
 
 download the list of articles as [TSV](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.tsv) or [Excel](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.xlsx)
 
@@ -69,7 +69,7 @@ You can test the social bot detection tool yourself: [botometer.iuni.iu.edu](htt
 ### US congress
 When I tested the system in April 2018, about half of US Congress members on Twitter were classified as bots:
 
-<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/congress_mk-01.png" width="60%"/></p>
+<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/congress_mk-01.png" width="80%"/></p>
 
 *download the [raw data as JSON](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/botometer_congress.json)*
 
@@ -97,7 +97,7 @@ They scraped 600'000/800'000 Twitter accounts following the seven major parties 
 
 I completely reproduced their work to get the list of accounts they claim to be social bots (which of course are not social bots). But these many data points allow us to reverse engineer the botometer algorithm using Dimension Reduction ([UMAP](https://github.com/lmcinnes/umap)):
 
-<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/reverse_engineering_botometer.png" width="60%"/></p>
+<p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/reverse_engineering_botometer.png" width="80%"/></p>
 
 You can find [this tool](https://michaelkreil.github.io/reverse_engineering_botometer/) and the [code](https://github.com/MichaelKreil/reverse_engineering_botometer) online.
 
