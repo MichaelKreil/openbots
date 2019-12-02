@@ -166,9 +166,7 @@ Amelia Howard had a [deeper look](https://threadreaderapp.com/thread/11842574763
 [LOAD e.V. gives an overview on Germany's new State Media Treaty (in german)](https://www.load-ev.de/2019/10/30/wir-brauchen-eine-faktenbasierte-digital-und-medienpolitik-regulierung-von-social-bots-im-neuen-medienstaatsvertrag/):
 
 > The draft of the State Media Treaty defines "social bots" as follows:
-
 > > Providers of telemedia services in social networks are obliged to indicate the fact of automation in the case of content or messages created automatically by means of a computer program, provided that the user account used for this purpose has been made available for use by natural persons in accordance with its external appearance. The shared content or the message must be preceded or accompanied by a clearly legible indication that it has been automatically created and sent using a computer program controlling the user account. A creation in the sense of this regulation is not only present, if contents and messages are generated immediately before the sending automated, but also, if with the sending automated on a prefabricated content or a pre-programmed message is used.
-
 > This means that every account that has the profile photo of a person (and probably a name that looks like a person) and posts or tweets automatically is a "social bot". Does that mean that as soon as I schedule a tweet with Hootsuite, for example, because it is supposed to be tweeted at a certain time for whatever reason, I am a social bot?
 
 # Summary
