@@ -180,3 +180,9 @@ The whole theory of "Social Bots influenced elections" can be fully explained by
 All their papers have to be reviewed again and have to be revoked if necessary.
 
 This includes all other research from all other groups, using their methods.
+
+Are there Social Bots? Probably.
+But there is no evidence that they are a big issue or that they had any influence at all on any election.
+
+The causes behind the Trump election, Brexit, Germany's AfD and many others must rather be researched in outdated electoral systems, gerrymandering, crisis of journalistic media, reduction of barriers to emerging movements, right-wing narratives, and especially racism as a mass phenomenon.
+
