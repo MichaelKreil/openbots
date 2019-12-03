@@ -14,7 +14,7 @@ The whole theory of "Social Bots influenced elections" can be fully explained by
 
 *The recording will probably appear on YouTube at the end of November, and then added here.*
 
-You can [**download the slides**](https://github.com/MichaelKreil/openbots/tree/master/slides) in multiple formats: [Apple Keynote](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.key.zip), [PowerPoint](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pptx), [PDF](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pdf) and [PNGs](https://github.com/MichaelKreil/openbots/tree/master/slides/slides_png)
+You can [download the slides](https://github.com/MichaelKreil/openbots/tree/master/slides) in multiple formats: [Apple Keynote](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.key.zip), [PowerPoint](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pptx), [PDF](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pdf) and [PNGs](https://github.com/MichaelKreil/openbots/tree/master/slides/slides_png)
 
 # Media coverage of Social Bots
 
