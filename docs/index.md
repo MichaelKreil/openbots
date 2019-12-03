@@ -4,7 +4,7 @@ title: "Lecture Notes"
 
 # TL;DR
 
-Social Bot research is a total disaster!
+Social Bot research is a total disaster.
 
 The whole theory of "Social Bots influenced elections" can be fully explained by serious scientific mistakes made by some researchers.
 
