@@ -4,7 +4,8 @@ title: "Lecture Notes"
 
 # TL;DR
 
-The theory that social bots have influenced elections sounds deceptively reasonable, but is scientifically unfounded and inaccurate on all levels.
+The theory that social bots have influenced elections sounds deceptively plausible, but is scientifically unfounded and inaccurate on all levels.
+
 It can be fully explained by serious scientific mistakes made by researchers.
 
 # This talk...
