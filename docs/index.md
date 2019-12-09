@@ -4,9 +4,11 @@ title: "Lecture Notes"
 
 # TL;DR
 
-The theory that social bots have influenced elections sounds deceptively plausible, but is scientifically unfounded and inaccurate on all levels.
+"Social bots have influenced elections."  
+Does it sound plausible? Yes.  
+Is it scientifically founded? No.
 
-It can be fully explained by serious scientific mistakes made by researchers.
+Many mistakes were made in the research and a lack of review allowed the theory to spread.
 
 # This talk...
 
