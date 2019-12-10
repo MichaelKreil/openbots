@@ -32,7 +32,7 @@ This page explains which scientific errors have been made by the researchers and
 
 <p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/articles_mk-01.png" width="80%"/></p>
 
-*download the list of articles as [TSV](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.tsv) or [Excel](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.xlsx) and play with the [interactive version](https://data.info.graphics/blog/2018/12/21/social-bot-research-is-flawed/)*
+*download the list of articles as [TSV](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.tsv) or [Excel](https://github.com/MichaelKreil/openbots/raw/master/data/media/media_coverage.xlsx)<!-- and play with the [interactive version](https://data.info.graphics/blog/2018/12/21/social-bot-research-is-flawed/)-->*
 
 # Research team: Comprop/Oxford
 
@@ -86,7 +86,7 @@ When I tested this tool in April 2018, about half of US Congress members present
 
 <p align="center"><img src="https://github.com/MichaelKreil/openbots/raw/master/graphics/congress_mk-01.png" width="80%"/></p>
 
-*download the [raw data as JSON](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/botometer_congress.json) and play with the [interactive version](https://data.info.graphics/blog/2018/12/21/social-bot-research-is-flawed/)*
+*download the [raw data as JSON](https://github.com/MichaelKreil/openbots/raw/master/data/southcalifornia_indiana/botometer_congress.json)<!-- and play with the [interactive version](https://data.info.graphics/blog/2018/12/21/social-bot-research-is-flawed/)-->*
 
 ### Other examples
 
