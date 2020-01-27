@@ -14,8 +14,10 @@ Many mistakes were made in the research and a lack of review allowed the theory 
 
 … was held at the great [OpenFest Conference](https://www.openfest.org/2019/en/full-schedule/#lecture-515) in Sofia, Bulgaria, on November 2, 2019.
 
-<div style="position:relative; padding-bottom:56.25%; padding-top:25px; height:0; margin:auto; width:100%; width:min(100%,max(560px,62%))">
-	<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/vyTmczjwFRE?start=99" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="margin:auto; width:100%; width:min(100%,max(560px,62%))">
+	<div style="position:relative; padding-bottom:56.25%; padding-top:25px; height:0;">
+		<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" src="https://www.youtube.com/embed/vyTmczjwFRE?start=99" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 </div>
 
 You can [download the slides](https://github.com/MichaelKreil/openbots/tree/master/slides) in multiple formats: [Apple Keynote](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.key.zip), [PowerPoint](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pptx), [PDF](https://github.com/MichaelKreil/openbots/raw/master/slides/slides.pdf) and [PNGs](https://github.com/MichaelKreil/openbots/tree/master/slides/slides_png)
