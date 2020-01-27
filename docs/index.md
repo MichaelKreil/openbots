@@ -5,8 +5,8 @@ title: "Lecture Notes"
 # TL;DR
 
 "Social bots have influenced elections."  
-Does it sound plausible? Yes, maybe.  
-Is it scientifically founded? No, not at all.
+Does it sound plausible? Yes.  
+Is it scientifically founded? Not at all.
 
 Many mistakes were made in the research and a lack of review allowed an unfounded theory to spread around the world.
 
