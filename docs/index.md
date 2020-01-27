@@ -12,7 +12,7 @@ Many mistakes were made in the research and a lack of review allowed an unfounde
 
 # This talk...
 
-… was held at the great [OpenFest Conference](https://www.openfest.org/2019/en/full-schedule/#lecture-515) in Sofia, Bulgaria, on November 2, 2019.
+… was held at the [OpenFest Conference](https://www.openfest.org/2019/en/full-schedule/#lecture-515) in Sofia, Bulgaria, on November 2, 2019.
 
 <div style="margin:auto; width:100%; width:min(100%,max(560px,80%))">
 	<div style="position:relative; padding-bottom:56.25%; padding-top:0px; height:0;">
@@ -55,7 +55,7 @@ This criterion is a pure assertion and has never been scientifically tested. 50 
 
 The simplest way to verify this method is to apply it to a group of users that are certified to not be social bots. In this case we can use verified accounts. Verified accounts have gone through a strict process that allows Twitter to certify that account holders – companies, media outlets, celebrities – have proven their identity.
 
-I scanned Twitter to find a sample of around 300'000 verified Twitter accounts. Then I scanned all the tweets published by these accounts during a period of 9 days between 2018-11-20 00:00:00 and 2018-11-29 00:00:00.
+I scanned Twitter to find a sample of around 300'000 verified Twitter accounts. Then I scanned all the tweets published by these accounts during a period of 9 days between 2018-11-20 00:00 and 2018-11-29 00:00.
 
 Of 306'954 verified accounts, 4'475 published 450 tweets or more in these 9 days, thus meeting the criterion of 50 tweets per day. This means that, when the Comprop/Oxford method is applied, 1.46% of these verified accounts are categorised as social bots.
 
@@ -129,14 +129,16 @@ Accounts with one of these properties represent the vast majority of misclassifi
 
 Interestingly, this issue is reflected in a reproducible flaw of the Botometer: If one creates a new Twitter account and send only one tweet, this account will immediately be classified as a social bot by this tool.
 
-## Studies of other researchers using botometer
+## Studies of other researchers using Botometer
 
 - [Cannabis Surveillance With Twitter Data: Emerging Topics and Social Bots.](https://doi.org/10.2105/AJPH.2019.305461)
 - [Social Bots in Election Campaigns: Theoretical, Empirical, and Methodological Implications](https://doi.org/10.1080/10584609.2018.1526238)
 
 ## Summary
 
-Botometer is a *blackbox algorithm* that classifies people as bots and can thus delegitimise the cause of entire movements.
+Botometer is a *blackbox algorithm* that classifies people as bots and delegitimises the cause of entire movements.
+
+Algorithms with social impact should be open source.
 
 # Research team: Berkeley/Swansea
 
@@ -170,7 +172,7 @@ Amelia Howard had a [deeper look at this claim](https://threadreaderapp.com/thre
 # Counter-research
 
 A research paper dismissing the social bots theory is currently being written by an academic research team and will be linked here as soon as it is public. You can also read the article I wrote on the topic with Florian Gallwitz of the University of Nuremberg in the German newspaper Tagesspiegel: [The "Social Bot" Fairy Tale](https://background.tagesspiegel.de/digitalisierung/the-social-bot-fairy-tale)
-I am looking for other research on the topic: Please get in touch with me if you know other examples!
+I am looking for other research on the topic: Please [get in touch with me](mailto:github@michael-kreil.de) if you know other examples!
 
 # Legislative Initiatives
 
