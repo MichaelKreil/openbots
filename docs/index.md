@@ -171,8 +171,11 @@ Amelia Howard had a [deeper look at this claim](https://threadreaderapp.com/thre
 
 # Counter-research
 
-A research paper dismissing the social bots theory is currently being written by an academic research team and will be linked here as soon as it is public. You can also read the article I wrote on the topic with Florian Gallwitz of the University of Nuremberg in the German newspaper Tagesspiegel: [The "Social Bot" Fairy Tale](https://background.tagesspiegel.de/digitalisierung/the-social-bot-fairy-tale)
-I am looking for other research on the topic: Please [get in touch with me](mailto:github@michael-kreil.de) if you know other examples!
+[Adrian Rauchfleisch](https://twitter.com/OuzhouAdi) and [Jonas Kaiser](https://twitter.com/JonasKaiser) from Harvard University had a deeper look into ["The False Positive Problem of Automatic Bot Detection in Social Science Research"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3565233). They concluded: "This has immediate consequences for academic research as most studies using the tool [Botometer] will unknowingly count a high number of human users as bots and vice versa."
+
+You can also read an article I wrote with Prof. Florian Gallwitz of the University of Nuremberg in the German newspaper Tagesspiegel: [The "Social Bot" Fairy Tale](https://background.tagesspiegel.de/digitalisierung/the-social-bot-fairy-tale)
+
+I am looking for other research on this topic: Please [get in touch with me](mailto:bots@michael-kreil.de) if you know other papers.
 
 # Legislative Initiatives
 
@@ -197,13 +200,13 @@ Here are some legislative initiatives that were caused by the spreading of the f
 
 Social Bot research is scientifically inaccurate on all levels.
 
-In the last years the claim that "Social bots influenced elections" has spread widely. This theory can be fully explained by serious scientific mistakes made by researchers.
+In the last years the claim that "Social bots influenced elections" has spread widely. This theory can be fully explained by serious scientific mistakes made by the researchers.
 
 All the papers about social bots have to be reviewed again and have to be revoked if necessary.
 
 This includes all other research from all other groups that have based their research on these flawed methods.
 
-Do social bots exist? Probably.
-However, there is no evidence that they exist in large numbers, have influenced elections in any way or caused any other sort of problems.
+Do social bots exist?
+There are bots out there. However, there is no evidence that they exist in large numbers, have influenced elections in any way or caused any other sort of problems.
 
 Other reasons must be considered as potential causes for the election of Donald Trump, Brexit, the rise of the AfD in Germany and other similar issues: Outdated electoral systems, gerrymandering, the crisis of media, an easier rise of social movements through social media, right-wing narratives, and especially racism as a mass phenomenon are among the contemporary dynamics that should be studied as possible explanations for the main political events of the last years.
